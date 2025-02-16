@@ -1,62 +1,62 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
+import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const HERO_CONTENT = `Passionate and skilled React.js and Node.js developer with hands-on experience in building dynamic web applications. Adept at crafting responsive user interfaces with React.js and developing scalable backend solutions with Node.js. Proficient in debugging, troubleshooting, and optimizing performance to deliver seamless user experiences. A collaborative problem-solver with a strong foundation in full-stack development, API integration, and database management. Always eager to learn and innovate in the ever-evolving tech landscape.`;
+
+export const ABOUT_TEXT = `Worked as a React.js and Node.js intern, contributing to the development of dynamic web applications. Assisted in building interactive user interfaces with React.js and developing robust backend services with Node.js. Debugged and troubleshot issues to enhance performance and ensure a seamless user experience. Collaborated with the team to implement new features, optimize APIs, and maintain code efficiency. Gained hands-on experience in full-stack development, database management, and performance optimization.`;
 
 export const EXPERIENCES = [
   {
-    "year": "2024",
-    "role": "Software Developer",
-    "company": "WebCodeGenie Technology Pvt. Ltd.",
-    "description": "Designed optimized database schemas, refactored code to improve maintainability, and implemented caching strategies for enhanced performance. Developed global jQuery and AJAX functions for consistency and scalability.",
-    "technologies": ["Laravel", "MySQL", "JavaScript", "jQuery", "AJAX"]
+    year: "2024",
+    role: "Software Developer",
+    company: "Maxgen Technologies Pvt. Ltd.",
+    description:
+      "Developed dynamic web applications with Node.js, assisted in identifying and fixing bugs to optimize performance and improve user experience. Collaborated with the development team to implement new features, enhance functionality, and maintain code efficiency. Gained hands-on experience in backend development, API integration, and performance optimization.",
+    technologies: ["Nodejs", "Mongodb", "JavaScript", "Css" ,"Html"],
   },
   {
-    "year": "2023 - 2024",
-    "role": "Intern",
-    "company": "Desire Infotech",
-    "description": "Contributed to dynamic web applications using React.js. Assisted with debugging and troubleshooting to ensure optimal performance and seamless user experiences.",
-    "technologies": ["React.js", "JavaScript", "Css", "Html5"]
-  }
+    year: "2023 - 2024",
+    role: "Intern",
+    company: "Desire Infotech",
+    description:
+      "Contributed to dynamic web applications using React.js. Assisted with debugging and troubleshooting to ensure optimal performance and seamless user experiences.",
+    technologies: ["React.js", "JavaScript", "Css", "Html5"],
+  }, 
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Portfolio",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      " A responsive portfolio built with React.js, styled using Tailwind CSS, and enhanced with smooth and interactive animations using the Framer Motion library. Designed to showcase projects and skills effectively across all devices.",
+    technologies: ["React.js", "Tailwind Css", "Framer Motion"],
   },
   {
-    title: "Task Management App",
+    title: "Weather-site",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Developed a Weather Forecasting App using React.js that fetches real-time weather data from the OpenWeatherMap API.The application allows users to search for weather conditions in any city and displays temperature, weather status, and icons dynamically based on the fetched data",
+    technologies: [
+      "React.js",
+      "Tailwind CSS",
+      "OpenWeather Api",
+      "React-icons",
+    ],
   },
   {
-    title: "Portfolio Website",
+    title: "TechStar",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      " Developed a responsive website using React.js and ReactRouterDOM for seamless navigation. The application includes multiple sections such as Home, Services, and Contact, ensuring a structured user experience with reusable components",
+    technologies: ["React.js", "Scss"],
   },
 ];
 
 export const CONTACT = {
-  address: "Sola Ahmedabad,Gujarat",
+  address: "Sola Ahmedabad, Gujarat",
   phoneNo: "+91 9313423713",
   email: "satyambarot2002@gmail.com",
 };
